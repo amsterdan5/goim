@@ -1,0 +1,40 @@
+appname: api
+uploadpath: ./upload/
+debug: true
+
+# 性能检测
+pprof:
+  open: true
+  port: 15555
+
+# 日志
+log:
+  logdir: ./logs/
+  fileType: console
+
+# 代理服务器
+httpserver:
+  port: 8888
+  reservServer:
+
+# 数据库
+db:
+  addr: 127.0.0.1
+  port: 3306
+  user: root
+  password: 123456
+  database: im
+
+# redis
+redis:
+  host: 127.0.0.1:6379
+  user:
+  password:
+  database: 0
+
+# elasticsearch
+es:
+  host:
+    - 127.0.0.1
+  user:
+  password:

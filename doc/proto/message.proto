@@ -1,0 +1,13 @@
+syntax="proto3";
+
+package = "im";
+
+go_package = "./im";
+
+message CreateChatRequest{
+    int64 uid = 1;
+}
+
+message CreateChatResponse{
+    bool ok = 1;
+}
